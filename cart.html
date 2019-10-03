@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/Webpage.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Cart.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Navbar.css">
+    <title>Cart · The Auto Spares Store</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-light" style="background-color: #73171A;">
+        <img src="Images/Logo.png" width="100%" height="300px">
+        <a href="index.html" id="homePage">Home</a>
+        <a href="catalogue.html" id="catalogue">Catalogue</a>
+        <a href="cart.html" id="cart">My Cart</a>
+    </nav>
+    <h1>Shopping Cart</h1>
+    <div>
+        <button id="clearCart">Clear Cart</button>
+    </div>
+    <div>
+        <ul id="showCart">
+        </ul>
+        <div>You have <span id="countCart"> </span> items in your Cart.</div>
+        <div>Total: R <span id="totalCart"></span></div>
+    </div>
+    <form>
+        <footer class="footer">
+            <div id="coupon">
+                <h2>Do you have a Discount Coupon?</h2>
+                <input type="text" name="coupon" placeholder="Enter Coupon Code here" id="couponCodeEntered"><br><br>
+                <button class="buttonSubmit">Submit</button><br>
+
+                <!-- Creating a coupon so that user can get a discount -->
+                <div class="coupon">
+                    <div class="container">
+                        <h3><img src="Images/Logo.png" class="couponLogo"></h3>
+                    </div>
+                    <div class="container" style="background-color:white">
+                        <h2 style="color: black"><b>20% OFF YOUR PURCHASE</b></h2>
+                        <p>Lorem ipsum dolor sit amet, et nam pertinax gloriatur. Sea te minim soleat senserit, ex quo luptatum tacimates voluptatum, salutandi delicatissimi eam ea. In sed nullam laboramus appellantur, mei ei omnis dolorem mnesarchum.</p>
+                    </div>
+                    <div class="container">
+                        <p>Use Promo Code: <span class="promo"></span></p>
+                        <button class="buttonCoupon">Get Coupon Code</button>
+                    </div>
+                </div>
+                <div id="delivery">
+                    <h2>How would you like to receive your package?</h2>
+                    <input type="radio" name="delivery" id="deliver">Delivery
+                    <input type="radio" name="delivery" id="collect">Collect
+                </div>
+
+                <!-- Delivery information form -->
+                <form>
+                    <div class="deliveryInformation">
+                        <div class="row">
+                            <div class="col-75">
+                                <div class="container">
+                                    <form action="/action_page.php">
+                                        <div class="row">
+                                            <div class="col-50">
+                                                <h3>Billing Address</h3>
+                                                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                                                <input type="text" id="fname" name="firstname" placeholder="Name" required>
+                                                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                                <input type="text" id="email" name="email" placeholder="email@example.com" required>
+                                                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                                                <input type="text" id="adr" name="address" placeholder="Address" required>
+                                                <label for="city"><i class="fa fa-institution"></i> City</label>
+                                                <input type="text" id="city" name="city" placeholder="City" required>
+                                                <div class="row">
+                                                    <div class="col-50">
+                                                        <label for="province">Province</label>
+                                                        <input type="text" id="province" name="province" placeholder="Province" required>
+                                                    </div>
+                                                    <div class="col-50">
+                                                        <label for="zip">Zip</label>
+                                                        <input type="text" id="zip" name="zip" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <input type="submit" value="Continue to checkout" class="btn">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form><br>
+
+                <!-- Confirm Purchase button -->
+                <button class="buttonConfirmPurchase" id="confirmPurchase">Confirm Purchase</button>
+            </div>
+        </footer>
+    </form>
+    <script type="text/javascript" src="Cart.js"></script>
+</body>
+
+</html>

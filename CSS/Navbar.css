@@ -1,0 +1,21 @@
+
+/*Navbar Styling*/
+.navbar {
+    float: left;
+    list-style-type: none;
+    width: 100%;
+    display: inline;
+    padding-left: 10px;
+    background-image: url("Logo.png");
+    text-align: center;
+}
+
+nav a {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    vertical-align: bottom;
+    color: #E5E5E5;
+    cursor: pointer;
+}

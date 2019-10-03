@@ -1,0 +1,50 @@
+
+body{
+	margin: 1%;
+}
+
+#logo{
+	border: 2px solid #73171A;
+	border-radius: 3px;
+	height: 250px;
+	width: 100%;
+}
+/* The "Add to cart" and "View More" buttons */
+.button {
+    background-color: #73171A;
+    border: none;
+    color: #E5E5E5;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*The go back button*/
+.previous {
+  background-color: #73171A;
+  color: #E5E5E5;
+}
+/*Button links*/
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #E5E5E5;
+  color: black;
+}
+
+.itemImage{
+	height: 250px;
+	width: 250px;
+	border:2px solid #73171A;
+	border-radius: 3px;
+}
+
+
+

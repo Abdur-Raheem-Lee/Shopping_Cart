@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/Webpage.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Catalogue.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Navbar.css">
+    <title>Catalogue · The Auto Parts Store</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light" style="background-color: #73171A;">
+        <img src="Images/Logo.png" width="100%" height="300px">
+        <a href="index.html" id="homePage">Home</a>
+        <a href="catalogue.html" id="catalogue">Catalogue</a>
+        <a href="cart.html" id="cart">My Cart</a>
+    </nav>
+    <!-- Items in my catalogue page -->
+    <div class="columns col-md-3">
+        <ul class="price">
+            <li class="header">Castrol GTX Oil</li>
+            <div class="panel">
+                <li class="grey"><img src="Items Images/oil.jpg" class="itemImage" class="img-fluid img-thumbnail"></li>
+                <li class="itemPrice" value="270.00">R 270,00</li>
+                <li class="addButton"><a href="Items/Oil.html" class="button" id="oilPage">View Item</a><br><br>
+                    <a class="addToCart button" href="#" data-name="Oil" data-price="270.00">ADD TO CART</a></li>
+            </div>
+        </ul>
+    </div>
+    <div class="columns col-md-3">
+        <ul class="price">
+            <li class="header">NGK Spark Plugs</li>
+            <div class="panel">
+                <li class="grey"><img src="Items Images/sparkPlug.jpg" class="itemImage" class="img-fluid img-thumbnail"></li>
+                <li class="itemPrice" value="235.00">R 235,00</li>
+                <li class="addButton"><a href="Items/Plugs.html" class="button" id="plugPage">View Item</a><br><br>
+                    <a class="addToCart button" href="#" data-name="Spark Plugs" data-price="235.00">ADD TO CART</a></li>
+            </div>
+        </ul>
+    </div>
+    <div class="columns col-md-3">
+        <ul class="price">
+            <li class="header">Bosch Wiper Blades</li>
+            <div class="panel">
+                <li class="grey"><img src="Items Images/wiperBlades.jpg" class="itemImage" class="img-fluid img-thumbnail"></li>
+                <li class="itemPrice" value="100.00">R 100,00</li>
+                <li class="addButton"><a href="Items/Wipers.html" class="button" id="wiperPage">View Item</a><br><br>
+                    <a class="addToCart button" href="#" data-name="Wiper Blades" data-price="100.00">ADD TO CART</a></li>
+            </div>
+        </ul>
+    </div>
+    <div class="columns col-md-3">
+        <ul class="price">
+            <li class="header">Ferodo Brake Pads</li>
+            <div class="panel">
+                <li class="grey"><img src="Items Images/brakePads.jpg" class="itemImage" class="img-fluid img-thumbnail"></li>
+                <li class="itemPrice" value="300.00">R 300,00</li>
+                <li class="addButton"><a href="Items/Brakes.html" class="button" id="brakePage">View Item</a><br><br>
+                    <a class="addToCart button" href="#" data-name="Brake Pads" data-price="300.00">ADD TO CART</a></li>
+            </div>
+        </ul>
+    </div>
+    <script type="text/javascript" src="Cart.js"></script>
+</body>
+
+</html>

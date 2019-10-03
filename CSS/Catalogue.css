@@ -1,0 +1,94 @@
+
+/* Navbar special styling */
+
+#catalogue{
+    border: 2px;
+    border-radius: 3px;
+    background-color: #E5E5E5;
+    color: #73171A;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Catalogue Styling */
+* {
+    box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+
+/* Style the list */
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Pricing header */
+.price .header {
+    background-color: #73171A;
+    color: #E5E5E5;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+/* List items */
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+/* The "Add to cart" and "View More" buttons */
+.button {
+    background-color: #73171A;
+    border: none;
+    color: #E5E5E5;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Change the width of the three columns to 100% (to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Catalogue Image Styling */
+.itemImage {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+/* Add a hover effect */
+.itemImage:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}

@@ -1,0 +1,11 @@
+body {
+    margin: 1%;
+    background-color: white;
+}
+
+h4 {
+    text-align: center;
+    color: darkgrey;
+    border-bottom: 1px solid darkgrey;
+    border-top: 1px solid darkgrey;
+}

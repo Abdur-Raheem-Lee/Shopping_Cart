@@ -1,0 +1,207 @@
+/* Navbar special styling */
+
+#cart {
+    border: 2px;
+    border-radius: 3px;
+    background-color: #E5E5E5;
+    color: #73171A;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Cart Item Styling */
+.cartItems {
+    font-size: 30px;
+    width: 100%;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Footer Styling */
+.footer {
+    display: inline-block;
+    background-color: #73171A;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
+
+h2{
+    color: #E5E5E5;
+    margin-left: 20px;
+}
+
+#delivery input{
+    color: #E5E5E5;
+    margin-left: 20px;
+}
+
+/* Discount Coupon Div Styling */
+.discount-coupon {
+    color: #E5E5E5;
+    border-radius: 4px;
+    width: auto;
+    height: auto;
+    display: inline;
+    padding: 2px;
+    align-content: left;
+}
+
+/* Discount Coupon Div Styling */
+.delivery {
+    color: #E5E5E5;
+    border-radius: 4px;
+    width: auto;
+    height: auto;
+    display: inline;
+    padding: 2px;
+    align-content: right;
+}
+
+/* Coupon Styling */
+.coupon {
+    border: 5px dotted #E5E5E5;
+    width: 80%;
+    border-radius: 15px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.container {
+    padding: 2px 16px;
+    background-color: #E5E5E5;
+    color: black;
+}
+
+.promo {
+    background: #E5E5E5;
+    padding: 3px;
+}
+
+.couponLogo {
+    width: 100%;
+    height: 150px;
+}
+
+.button {
+    background-color: #73171A;
+    border: none;
+    color: #E5E5E5;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling the coupon generator button */
+.buttonCoupon {
+    background-color: #73171A;
+    border: none;
+    color: #E5E5E5;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling the submit coupon button */
+.buttonSubmit {
+    background-color: #E5E5E5;
+    border: none;
+    color: #73171A;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+/* Styling the confirm order button */
+.buttonConfirmPurchase {
+    background-color: #E5E5E5;
+    border: none;
+    color: #73171A;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.buttonConfirmPurchase:hover {
+    background-color: #E5E5E5;
+    color: #73171A;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Delivery information form styling */
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.col-50 {
+    -ms-flex: 50%;
+    flex: 50%;
+}
+
+.col-75 {
+    -ms-flex: 75%;
+    flex: 75%;
+}
+
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+
+.container {
+    background-color: #E5E5E5;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid #73171A;
+    border-radius: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.btn {
+    background-color: #E5E5E5;
+    color: #73171A;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #73171A;
+    color: #E5E5E5;
+}

@@ -1,0 +1,24 @@
+/*Navbar special styling*/
+#homePage{
+    border: 2px;
+    border-radius: 3px;
+    background-color: #E5E5E5;
+    color: #73171A;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*Contact information Styling*/
+.contactInformation{
+    background-color: #73171A;
+    color: #E5E5E5;
+}
+.contactInformation a{
+    background-color: #73171A;
+    color: #E5E5E5;
+}
+.contactInformation img{
+	height: 20px;
+	width: 20px;
+    border-radius: 3px;
+}
