@@ -177,7 +177,7 @@ TAPS_shoppingCart.addToCart = function (name, price, count) {
     var item = new this.Item(name, price, count);
     this.cart.push(item);
     this.saveCart();
-    alert("This item was added to your cart. Your Cart Total is R " + total);
+    alert("This item has been added to your cart.");
 }
 
 // Increasing the quantity of an item using the "number" input
